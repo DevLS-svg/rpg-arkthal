@@ -1,0 +1,223 @@
+{
+  "inicio": {
+    "texto": "Você desperta em uma clareira da Floresta de Ark'thal. Há três caminhos diante de si...",
+    "tempo": 2,
+    "opcoes": {
+      "cachoeira": "Ir até a Cachoeira das Lendas",
+      "ruinas": "Explorar as Ruínas Élficas",
+      "vilarejo": "Visitar o Vilarejo dos Sobreviventes"
+    }
+  },
+
+  "cachoeira": {
+    "texto": "A água brilha de forma incomum. Uma guardiã emerge e fala em enigmas sobre o Cristal da Verdade.",
+    "tempo": 3,
+    "opcoes": {
+      "cristal": "Absorver energia do cristal",
+      "negar": "Recusar o poder oferecido"
+    }
+  },
+
+  "cristal": {
+    "texto": "Você sente um poder atravessando seu corpo. A guardiã sorri e desaparece. Um caminho atrás da cachoeira se revela.",
+    "tempo": 3,
+    "opcoes": {
+      "avancar_caverna": "Seguir o túnel atrás da cachoeira",
+      "descansar": "Meditar e recuperar energia"
+    }
+  },
+
+  "descansar": {
+    "texto": "Você medita sob o som da cachoeira e sente sua sabedoria aumentar.",
+    "tempo": 2,
+    "opcoes": {
+      "avancar_caverna": "Seguir o túnel revelado",
+      "ruinas": "Voltar para as Ruínas Élficas"
+    }
+  },
+
+  "negar": {
+    "texto": "Você recusa o poder. A guardiã desaparece em silêncio e a floresta escurece ligeiramente.",
+    "tempo": 2,
+    "opcoes": {
+      "ruinas": "Explorar as Ruínas Élficas",
+      "vilarejo": "Ir ao Vilarejo dos Sobreviventes"
+    }
+  },
+
+  "ruinas": {
+    "texto": "Você encontra vestígios élficos e uma muralha viva. Um espírito aparece e oferece conhecimento.",
+    "tempo": 4,
+    "opcoes": {
+      "seguir_espirito": "Seguir o espírito",
+      "tocar_muralha": "Tocar a muralha antiga"
+    }
+  },
+
+  "seguir_espirito": {
+    "texto": "O espírito mostra visões do passado. Você aprende sobre o pacto elfo-demônio.",
+    "tempo": 4,
+    "opcoes": {
+      "guardar_info": "Anotar tudo e seguir para a floresta",
+      "invocar_magia": "Usar magia para abrir um portal oculto"
+    }
+  },
+
+  "guardar_info": {
+    "texto": "Você anota cada detalhe revelado pelo espírito. Isso pode ser útil mais tarde.",
+    "tempo": 2,
+    "opcoes": {
+      "caverna_pacto": "Ir investigar a Caverna do Pacto",
+      "vilarejo": "Buscar respostas no vilarejo"
+    }
+  },
+
+  "invocar_magia": {
+    "texto": "Usando sua magia, você abre um pequeno portal e encontra um artefato antigo.",
+    "tempo": 3,
+    "opcoes": {
+      "pegar_artefato": "Pegar o artefato",
+      "ignorar_portal": "Fechar o portal e continuar"
+    }
+  },
+
+  "pegar_artefato": {
+    "texto": "Você adiciona o Artefato do Vento ao inventário. Sente que poderá usar isso futuramente.",
+    "tempo": 2,
+    "opcoes": {
+      "caverna_pacto": "Ir à Caverna do Pacto",
+      "vilarejo": "Visitar o Vilarejo dos Sobreviventes"
+    }
+  },
+
+  "ignorar_portal": {
+    "texto": "Você fecha o portal e segue com sabedoria cautelosa.",
+    "tempo": 2,
+    "opcoes": {
+      "caverna_pacto": "Investigar a Caverna do Pacto",
+      "fonte_sombria": "Seguir até a Fonte Sombria"
+    }
+  },
+
+  "vilarejo": {
+    "texto": "O líder do vilarejo implora por ajuda contra uma praga misteriosa.",
+    "tempo": 3,
+    "opcoes": {
+      "ajudar": "Investigar a origem da praga",
+      "ignorar": "Seguir missão pessoal"
+    }
+  },
+
+  "ajudar": {
+    "texto": "Você descobre que a praga vem da Fonte Sombria. Recebe uma poção rara como recompensa.",
+    "tempo": 4,
+    "opcoes": {
+      "fonte_sombria": "Ir à fonte",
+      "descansar_vilarejo": "Ficar no vilarejo e ajudar mais"
+    }
+  },
+
+  "descansar_vilarejo": {
+    "texto": "Você descansa em segurança, ouvindo histórias antigas e ganhando +1 sabedoria.",
+    "tempo": 2,
+    "opcoes": {
+      "fonte_sombria": "Ir à Fonte Sombria",
+      "arvore_julgamento": "Seguir para a Árvore do Julgamento"
+    }
+  },
+
+  "fonte_sombria": {
+    "texto": "A água está corrompida. Um espírito maligno emerge para confrontá-lo.",
+    "tempo": 4,
+    "opcoes": {
+      "purificar": "Purificar com magia",
+      "combater": "Lutar contra o espírito"
+    }
+  },
+
+  "purificar": {
+    "texto": "A fonte é purificada. A floresta começa a se curar.",
+    "tempo": 3,
+    "opcoes": {
+      "arvore_julgamento": "Ir até a Árvore do Julgamento",
+      "voltar_vilarejo": "Avisar o vilarejo da vitória"
+    }
+  },
+
+  "voltar_vilarejo": {
+    "texto": "O vilarejo comemora sua conquista. Você ganha respeito e apoio.",
+    "tempo": 2,
+    "opcoes": {
+      "arvore_julgamento": "Ir para a Árvore do Julgamento",
+      "descansar": "Descansar mais antes da jornada final"
+    }
+  },
+
+  "combater": {
+    "texto": "Você derrota o espírito após uma batalha intensa. Seu corpo sente os efeitos.",
+    "tempo": 4,
+    "opcoes": {
+      "descansar": "Descansar para recuperar energia",
+      "arvore_julgamento": "Avançar até a Árvore do Julgamento"
+    }
+  },
+
+  "caverna_pacto": {
+    "texto": "Dentro da caverna você encontra vestígios de um ritual sombrio. Uma voz antiga ecoa...",
+    "tempo": 4,
+    "opcoes": {
+      "pacto_feito": "Aceitar o pacto sombrio",
+      "pacto_negado": "Recusar e destruir o altar"
+    }
+  },
+
+  "pacto_feito": {
+    "texto": "O poder invade você. Está marcado. Sua alma pulsa com energia sombria.",
+    "tempo": 5,
+    "opcoes": {
+      "arvore_julgamento": "Ir à Árvore do Julgamento",
+      "ruinas": "Voltar às Ruínas Élficas"
+    }
+  },
+
+  "pacto_negado": {
+    "texto": "Você destrói o altar e sente proteção espiritual. A caverna começa a desabar.",
+    "tempo": 3,
+    "opcoes": {
+      "arvore_julgamento": "Avançar até a Árvore do Julgamento",
+      "vilarejo": "Buscar respostas no vilarejo"
+    }
+  },
+
+  "arvore_julgamento": {
+    "texto": "A Árvore do Julgamento reconhece suas ações. Três caminhos se abrem...",
+    "tempo": 2,
+    "opcoes": {
+      "final_redentor": "Invocar a verdade",
+      "final_sombrio": "Usar seus poderes para dominar",
+      "final_oculto": "Entrar na fenda espiritual entre mundos"
+    }
+  },
+
+  "final_redentor": {
+    "texto": "Você restaura o equilíbrio de Ark'thal. Os espíritos descansam em paz. Seu nome é cantado entre os antigos.",
+    "tempo": 0,
+    "opcoes": {}
+  },
+
+  "final_sombrio": {
+    "texto": "A floresta se curva à sua vontade. Você se torna um lorde das trevas com um exército de sombras.",
+    "tempo": 0,
+    "opcoes": {}
+  },
+
+  
+
+    "final_oculto": {
+    "texto": "Você atravessa planos invisíveis e descobre que tudo era um teste espiritual. Seu corpo desaparece da floresta e desperta em um santuário entre mundos. Lá, você encontra outros viajantes que também passaram por provações. Seu nome agora está gravado nas raízes da Árvore Cósmica.",
+    "tempo": 0,
+    "opcoes": {}
+  }
+}
+
+  

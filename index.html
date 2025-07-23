@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPG: Mistérios de Ark'thal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-cena="inicio"> <!-- 🔁 Fundo muda conforme a cena -->
+
+  <!-- Tela Inicial -->
+  <div id="tela-inicial">
+    <h1>🌌 Mistérios da Floresta de Ark'thal</h1>
+    <p>Escolha sua classe para iniciar a jornada:</p>
+    <div id="classes">
+      <button onclick="escolherClasse('mago')">🧙 Mago</button>
+      <button onclick="escolherClasse('guerreiro')">🗡️ Guerreiro</button>
+      <button onclick="escolherClasse('explorador')">🕵️ Explorador</button>
+    </div>
+  </div>
+
+  <!-- Interface do Jogo -->
+  <div id="interface-jogo" style="display: none;">
+    <div id="painel-status">
+      <h2>🧍 Personagem</h2>
+      <p>Classe: <span id="classeSelecionada"></span></p>
+      <p>Força: <span id="forca"></span></p>
+      <p>Sabedoria: <span id="sabedoria"></span></p>
+      <p>Coragem: <span id="coragem"></span></p>
+      <p>Percepção: <span id="percepcao"></span></p>
+      <p>Magia: <span id="magia"></span></p>
+      <p>Inventário: <span id="inventario">Nada</span></p>
+      <p>Tempo de Jornada: ⏳ <span id="tempoTotal">0</span> / 60 min</p>
+    </div>
+
+    <div id="narrativa">
+      <h2 id="tituloCena">🌲 Despertar na Floresta</h2>
+      <p id="textoCena">A aventura irá começar...</p>
+      <div id="escolhas"></div>
+    </div>
+
+    <div id="area-controle">
+      <button onclick="reiniciar()">🔁 Reiniciar</button>
+    </div>
+  </div>
+
+  <!-- Trilha Sonora -->
+  <audio id="musica" autoplay loop>
+    <source src="assets/audio/battle-of-the-dragons-8037.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Lógica do Jogo -->
+  <script src="js/script.js"></script>
+</body>
+</html>
