@@ -48,6 +48,8 @@ function mostrarCena(cena) {
   cenaAtual = cena;
   const cenaData = historia[cena];
   personagem.tempo += (cenaData.tempo || 2);
+  document.body.setAttribute("data-cena", nomeCena);
+
 
   // ✨ Atualiza título, texto e tempo
   document.getElementById("tituloCena").textContent = formatarTitulo(cena);
