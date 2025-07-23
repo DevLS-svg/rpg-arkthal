@@ -122,5 +122,5 @@ button:hover {
 }
 
 body[data-cena="inicio"] {
-  background-image: url('../assets/images/tela_principal.png');
+  background-image: url('assets/images/tela_principal.png');
 }
