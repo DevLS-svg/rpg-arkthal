@@ -122,5 +122,7 @@ button:hover {
 }
 
 body[data-cena="inicio"] {
-  background-image: url('assets/images/tela_principal.png');
+  background-color: #000000; /* preto */
+  background-image: none !important;
 }
+
